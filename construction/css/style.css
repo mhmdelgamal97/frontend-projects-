@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+body{
+    font-size: 16px;
+}
+.myContainer{
+    margin: 0 15px;
+}
+#sec1{
+    height: 125vh;
+    background-image: url("../Images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#sec1 header:first-of-type .myContainer:first-of-type div:first-of-type{
+    display: none;
+}
+#sec1 header:first-of-type .myContainer:first-of-type div:last-of-type{
+    text-align: center;
+}
+#sec1 header:first-of-type .myContainer:first-of-type div:last-of-type i{
+    margin-left: 10px;
+}
+#sec1 header:first-of-type{
+    background-color: #FFCB0F;
+    padding: 10px 0;
+}
+
+#sec1 header:last-of-type{
+    background-color:#222533;
+    padding: 15px 0;
+}
+#sec1 header:last-of-type .myContainer nav{
+    display: none;
+}
+#sec1 header:last-of-type .myContainer nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+    text-transform: capitalize;
+}
+#sec1 header:last-of-type .myContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sec1 .myover header h1{
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+#sec1 header h1 span{
+    color: #FFCB0F;
+}
+#sec1 header:last-of-type .myContainer div i{
+    color: white;
+    font-size: 1.2rem;
+}
+#sec1 header:last-of-type .myContainer p{
+    color: white;
+    font-size: .8rem;
+}
+.myover{
+    background-color: #0000008a;
+    height: 125vh;
+}
+#sec1 .content{
+    height: 83.6%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#sec1 .content .myContainer h4{
+    font-weight: lighter;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#sec1 .content .myContainer h2{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+#sec1 .content .myContainer h2:nth-of-type(2){
+    color: #FFCB0F;
+    margin-bottom: 15px;
+}
+#sec1 .content .myContainer div{
+    margin-top: 30px;
+}
+#sec1 .content .myContainer div a{
+ background-color: black;
+ border: 1px solid #FFCB0F;
+ padding: 10px 20px;
+ color: #FFCB0F;
+ text-decoration: none;
+ display: block;
+ width: 150px;
+ margin: auto;
+ margin-top: 10px;
+}
+/**********************SECTION2******************************/
+#sec2{
+    margin-top: 50px;
+}
+#sec2 .myContainer article h2{
+    color: #FFCB0F;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+#sec2 .myContainer article h4{
+    font-size: .9rem;
+    margin-bottom: 15px;
+}
+#sec2 .myContainer article p{
+    font-size: .8rem;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 10px;
+    border: #FFCB0F;
+    border-radius: 3px;
+    background-color: #FFCB0F;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+#sec2 .myContainer aside{
+    margin-top:30px;
+    order: 1;
+}
+#sec2 .myContainer aside img{
+    width: 100%;
+}
+/**********************SECTION3***********************************/
+#sec3{
+    background-image: url("../Images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+#sec3 .overlay{
+    background-color: #00000040;
+    padding: 20px 10px;
+
+}
+#sec3 .overlay .myContainer h2{
+    color: #FFCB0F;
+    text-transform: uppercase;
+}
+#sec3 article{
+    background-color: #00000040;
+    padding: 10px;
+    /* margin: 10px; */
+    border-radius: 3px;
+    font-size: .8rem;
+    margin: 50px auto 0 auto;
+    width: 50%;
+}
+
+#sec3 article img{
+    background-color: #FFCB0F;
+    border-radius: 50%;
+    margin-top: -50px;
+    width: 80px;
+}
+#sec3 article *{
+    margin: 3px 0;
+}/****************************SEC4***************************************/
+#sec4{
+    padding: 50px 0;
+}
+#sec4 .myContainer article{
+    width: 70%;
+    margin: 0 auto 20px auto;
+    
+
+}
+#sec4 .myContainer article> *{
+    margin-bottom: 10px;
+}
+#sec4>h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    color: #222533;
+}
+#sec4 .myContainer article div{
+    background-image: url("../Images/card1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#sec4 .myContainer article:nth-of-type(2) div{
+    background-image: url("../Images/card2.jpg");
+
+}
+#sec4 .myContainer article:nth-of-type(3) div{
+    background-image: url("../Images/card3.jpg");
+
+}
+#sec4 .myContainer article div h2{
+    background-color: #222533ad;
+    color: #fff;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+    font-size:1.3rem;
+    padding: 10px 0;
+}
+/*******************************SECTIN5**************************************/
+#sec5{
+    background-image: url("../Images/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* opacity: .5; */
+}
+.overlay2{
+    background-color: #8080809c;
+    padding: 30px 0;
+}
+#sec5 h2,#sec5 p{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#sec5 nav{
+    text-align: center;
+    margin-bottom: 20px;
+    display: none;
+}
+#sec5 article div{
+    display: block;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+#sec5 nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+#sec5 nav a:nth-of-type(1){
+    background-color: #282828;
+}
+#sec5 nav a:hover{
+    background-color: #282828;
+}
+#sec5 .myContainer:last-of-type
+{
+    width: 70%;
+    margin: 0 auto;
+}
+#sec5 .myContainer:last-of-type>img{
+    width: 100%;
+}
+#sec5 .myContainer:last-of-type div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#sec5 .myContainer:last-of-type div img{
+    width: 49%;
+    margin-bottom: 5px;
+}
+/*****************************SECTION6******************************************/
+#sec6{
+    padding: 30px 0 0 0;
+    background-image: url("../Images/bg3.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+#sec6 .myContainer:first-of-type{
+    text-align: center;
+    text-transform: capitalize;
+     
+}
+#sec6 .myContainer:first-of-type *{
+    margin-bottom:20px;
+}
+#sec6 .myContainer:nth-of-type(2) article div:first-of-type{
+    display: flex;
+    background-color: #E5E5E5;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+#sec6 .myContainer:nth-of-type(2) article{
+    margin-bottom: 20px;
+}
+#sec6 .myContainer:nth-of-type(2) article:nth-of-type(2) div:first-of-type{
+    background-color: #FFCB0F;
+}
+#sec6 .myContainer:nth-of-type(2) article div:first-of-type img{
+    width: 50px;
+    height: 20px;
+    margin-right:5px ;
+}
+#sec6 .myContainer:nth-of-type(2) article div:last-of-type{
+    text-align: center;
+}
+#sec6 .myContainer:nth-of-type(2) article div:last-of-type img{
+    margin-bottom: 2px;
+   
+}
+#sec6 .myContainer:nth-of-type(2) article div:last-of-type img:last-of-type{
+    border-radius: 50%;
+   
+}
+#sec6 .over{
+    background-color: #ffcb0f9c;
+    padding: 20px 20px;
+    text-align: center;
+    border-bottom: 20px solid #656B73;
+}
+#sec6 .myContainer:last-of-type form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sec6 .myContainer:last-of-type form input{
+    width: 49%;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border-style: none;
+    margin-bottom: 10px;
+}
+#sec6 .myContainer:last-of-type form input:nth-of-type(3) {
+    width: 70%;
+    
+}
+#sec6 .myContainer:last-of-type form input:last-of-type{
+    background-color: #6F717A;
+    width: 28%;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border-style: none;
+    color: #fff;
+}
+#sec6 .myContainer:last-of-type article h2{
+    color: #72757E;
+    text-transform: capitalize;
+}
+#sec6 .myContainer:last-of-type article h2:last-of-type{
+    font-weight: lighter;
+}
+/*******************************************************************************/
+#sec7{
+    background-image: url("../Images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#sec7 .over{
+    background-color:#454959d4;
+    padding: 30px 0;
+}
+#sec7 .myContainer article>div:nth-of-type(1) h3{
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+#sec7 .myContainer article h2{
+    color: #FFCB0F;
+}
+#sec7 .myContainer article:nth-of-type(1)>article{
+    margin-bottom: 10px;
+}
+#sec7 .myContainer article:nth-of-type(1) article i{
+    width: 15%;
+    background-color: #FFCB0F;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+#sec7 .myContainer article:nth-of-type(2) ul{
+    list-style-position: inside;
+    list-style-type: disc;
+}
+#sec7 .myContainer article ul{
+    list-style-type: none;
+}
+#sec7 .myContainer article:nth-of-type(2) ul a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+#sec7 .myContainer article:nth-of-type(3) ul li{
+    margin-bottom: 5px;
+}
+#sec7 .myContainer article:nth-of-type(3) ul li div{
+    
+    display: inline-block;
+}
+#sec7 .myContainer article:nth-of-type(3) ul li div:nth-of-type(1){
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: bold;
+}
+/* #sec7 ul{
+    display: none;
+} */
+/* #sec7 .myContainer article:nth-of-type(1)>article{
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .myContainer{
+        width: 520px;
+        margin: 0 auto;
+    }
+    #sec2 .myContainer article h2{
+        font-size: 1.4rem;
+    }
+    #sec2 .myContainer article h4{
+        font-size: 1.2rem;
+    }
+    /*******************SECTION3********************/
+    #sec3 .overlay .myContainer:nth-of-type(2)
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #sec3 article{
+        margin-top: 100px;
+        width: 40%;
+    }
+    #sec3 article *{
+        font-size: .8rem;
+    }
+    /***********************Section5*****************************/
+    #sec5 nav{
+        display: block;
+    }
+    #sec5 article div{
+        display: none;
+    }
+    #sec5 .myContainer:last-of-type
+    {
+        width: 520px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+#sec5 .myContainer:last-of-type>img{
+    width: 49%;
+}
+#sec5 .myContainer:last-of-type div{
+    width: 49%;
+
+}
+/**************************Sec6********************************/
+#sec6 .myContainer:last-of-type{
+    display: flex;
+    justify-content: space-between;
+
+}
+#sec6 .myContainer:last-of-type article{
+    text-align: left;
+}
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .myContainer{
+        width: 710px;
+        margin: 0 auto;
+    }
+    #sec1{
+        height: 100vh;
+    }
+    .myover{
+        background-color: #0000008a;
+        height: 100vh;
+    }
+    #sec1 header:first-of-type .myContainer:first-of-type div:first-of-type{
+        display: block;
+    }
+    #sec1 header:first-of-type .myContainer:first-of-type{
+        display: flex;
+        justify-content: space-between;
+    }
+    #sec1 header:first-of-type .myContainer:first-of-type div:first-of-type{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+    /* #sec1 header:first-of-type .myContainer:first-of-type div:first-of-type article{
+        width: 33%;
+    } */
+    #sec1 header:last-of-type .myContainer nav{
+        display: block;
+    }
+    #sec1 header:last-of-type .myContainer div{
+        display: none;
+    }
+    #sec1 .content .myContainer h4{
+        font-size: 1.5rem;
+    }
+    #sec1 .content .myContainer h2{
+        font-size: 2rem;
+    }
+    #sec1 .content .myContainer div a{
+        display: inline;
+    }
+    /*****************SECTION2*********************/
+    #sec2 .myContainer article{
+        width: 49%;
+    }
+    #sec2 .myContainer aside{
+        width: 49%;
+    }
+    #sec2 .myContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #sec2 .myContainer article p{
+        font-size: .9rem;
+    }
+    #sec2 .myContainer article button{
+        padding: 10px 20px;
+        border: #FFCB0F;
+        border-radius: 3px;
+        background-color: #FFCB0F;
+        color: white;  
+    }
+        /*******************SECTION3********************/
+    #sec3 .overlay .myContainer:nth-of-type(2)
+        {
+           flex-wrap: nowrap;
+        }
+    #sec3 article{
+            width: 23%;
+        }
+    #sec3 article *{
+            font-size: .7rem;
+        }
+    /************************Section4*****************************/
+    #sec4 .myContainer {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+        }
+    #sec4 .myContainer article{
+            width: 30%;
+        }
+    #sec4 .myContainer article div h2{
+            font-size: 1.2rem;
+        }
+    /******************************section5***********************************/
+    #sec5 .myContainer:last-of-type
+        {
+            width: 710px;
+            
+        }   
+    /***********************************SECTION6**************************************/
+    #sec6 .myContainer:nth-of-type(2){
+        display: flex;
+        justify-content: space-between;
+    }
+    #sec6 .myContainer:nth-of-type(2) article{
+        width: 33%;
+    }
+    /*********************************************************************************/
+    #sec7 .myContainer{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    #sec7 .myContainer>article{
+        width: 23%;
+        
+    }
+    #sec7 ul{
+        display: block;
+    }
+    #sec7 .myContainer article:nth-of-type(1)>article{
+        display: block;
+    }
+    #sec7 .myContainer article>div:nth-of-type(1) i{
+        display: none;
+    }
+
+
+
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .myContainer{
+        width: 930px;
+        margin: 0 auto;
+    }
+    #sec1 header:first-of-type .myContainer:first-of-type div:first-of-type{
+        width: 50%;
+    }
+    #sec1 .content .myContainer h4{  
+        font-size: 2rem; 
+    }
+    #sec1 .content .myContainer h2{
+        font-size: 2.5rem;
+    }
+    /*******************SECTION2*************************/
+    #sec2 .myContainer article h2{
+        font-size: 1.9rem;
+    }
+    #sec2 .myContainer article h4{
+        font-size: 1.5rem;
+    }
+    /**************************SECTION3********************************/
+    #sec3 article *{
+        font-size: 1rem;
+    }
+    /******************************SECTION4***********************************/
+    #sec4 .myContainer article div h2{
+        font-size: 1.3rem;
+    }
+    /*********************************5**************************************/
+    #sec5 .myContainer:last-of-type
+    {
+        width: 930px;
+    }
+    
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .myContainer{
+        width: 1140px;
+        margin: 0 auto;
+    }
+    #sec1 header:first-of-type .myContainer:first-of-type div:first-of-type{
+        width: 40%;
+    }
+    /***************************************/
+    #sec2 .myContainer article h2{
+        font-size: 2.2rem;
+    }
+    #sec2 .myContainer article h4{
+        font-size: 1.5rem;
+    }
+    /********************5****************************/
+    #sec5 .myContainer:last-of-type
+    {
+        width: 1140px;
+    }
+}
