@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none !important;
+}
+
+.sec1 .form-control{
+    width: 40% !important;
+    display: inline-block !important;
+}
+#sec2{
+    padding: 80px 0;
+}
+.sec1 ul{
+    list-style-type: none;
+}
+.sec1 ul li{
+    font-size: 20px;
+    padding: 0;
+}
+.sec7 ul{
+    list-style-type: none;
+}
+.sec7 ul li{
+    display: inline-block;
+    color: gray;
+    padding: 0 10px;
+}
+.sec7 hr{
+    height: 3px;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}

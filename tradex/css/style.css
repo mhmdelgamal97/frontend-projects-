@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+.to{
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    color: white;
+    z-index: 20;
+    font-size: 30px;
+    color: #0C65ED;
+    display: none;
+    cursor: pointer;
+}
+header>div div:nth-of-type(1){
+    border-right: 1px solid white;
+}
+nav .dropdown ul{
+    border-top: 3px solid blue;
+}
+nav .dropdown ul li{
+    border-bottom:1px solid gray !important;
+}
+.nav-item a:hover{
+    color: #0D6EFD !important;
+}
+nav{
+    background-color: white !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+}
+.carousel-indicators{
+    bottom: 40% !important;
+    left: 80% !important;
+    flex-direction: column !important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px !important;
+    height: 10px !important;
+}
+.carousel-caption{
+    bottom: 25%;
+    font-size: 1.5rem !important;
+}
+/* .carousel-caption h5{
+    font-size: 3.5rem;
+} */
+/*********************************SEC2******************************************/
+.sec2 i{
+   display: block;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+}
+.sec2 .container:first-of-type{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 3px;
+}
+
+.sec2 a{
+    text-decoration: none;
+}
+.sec2 .card div:first-of-type{
+    overflow: hidden;
+}
+.sec2 img{
+    transition: 1s;
+    
+}
+.sec2 img:hover{
+    transform:scale(1.2,1.2) rotate(8deg) ;
+     
+}
+.sec2 .card:hover .progress-bar{
+    width: 100% !important;
+}
+.sec2 .card:hover h5{
+    color: #0D6EFD;
+}
+.sec2 .card:hover .col-2{
+    background-color: #0D6EFD !important;
+}
+
+
+/*******************************SEC3**********************************************/
+.sec3 h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.sec3 .row .col-4{
+    margin-top: 20px;
+}
+/**********************************SEC4*************************************************/
+.sec4 .container{
+    position: relative;
+    padding: 20px 0;
+}
+.sec4 .container h2{
+    font-size: 28px;
+    
+}
+.sec4 .container i{
+    font-size: 50px;
+    color: gray;
+    position: absolute;
+    top: 29px;
+    left: 22px; 
+}
+/************************************SEC5*****************************************************/
+.sec5 hr{
+    height: 2px;
+}
+/***************************SEC6*************************************/
+.sec6 .container .row .row .col-9{
+    border-left: 1px solid gray;
+}
+.sec6 .container .row .row{
+    transition: .5s;
+}
+.sec6 .container .row .row p{
+    color: black !important;
+}
+.sec6 .container .row .row .row:hover{
+    color: #0D6EFD;
+}
+.sec6 .parent{
+    position: relative;
+}
+.sec6 .parent .col-md-5{
+    position: relative;
+    left: 100px;
+    background-color: white;
+    height: 75%;
+    top: 20px;
+    box-shadow: 0px 0px 60px 0px rgb(0 0 0 / 20%) !important;
+}
+
+/********************************Sec8***********************************************/
+.sec8 .container>div:nth-of-type(2) a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    transition: .5s;
+}
+.sec8 .container>div:nth-of-type(2) a:hover{
+    color: #0C65ED;
+}
+.sec8 .container>div:nth-of-type(2) a::after{
+    content: "/";
+    margin-left: 30px;
+}
+.sec8 .container>div:nth-of-type(2) a:last-of-type::after{
+    content: "";
+    
+}
+.sec8 img{
+    transition: .5s;
+}
+.sec8 img:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.sec8 .slideParent{
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+.sec8 .slideParent:hover{
+    box-shadow: 0 0 15px grey;
+}
+.slider
+{
+    width: 90%;
+    height: 25%;
+    position: absolute;
+    background-color: white;
+    z-index: 5;
+    transition: 0.5s;
+    top: 70%;
+    left: 5%;
+    background-color: #0c65edad;
+    /* visibility: hidden; */
+    opacity: 0;
+    transition: .7s;
+
+}
+.sec8 .slideParent:hover .slider{
+    opacity: 1;
+
+}
+
+/*************************************Sec11*****************************************************/
+.sec11 i{
+    color: #0C65ED;
+}
+.sec11 article:nth-of-type(2){
+
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 25%);
+}
+/********************************************SEC77*********************************************************/
+.sec77{
+    background-image: url("../Images/service-bg.jpg");
+    background-size: cover;
+}
+
+.sec77 .bg-dark{
+    height: 200px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    background-color: #000000a8 !important;
+    position: relative;
+    overflow: hidden;
+}
+.slider2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    background-color: white;
+    transition: .5s;
+}
+.sec77 .col-12 .bg-dark:hover .slider2{
+    top: 0;
+}
+.overlay{
+    background-color: #000000a6;
+}
+/*******************************SEC10*************************************/
+.sec10 .col-12>div{
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+.slider3{
+    position: absolute;
+    top: 82%;
+    background-color: white;
+    transition: .5s;
+
+}
+.sec10 .col-12>div:hover .slider3{
+    top: 46%;
+}
+.slider3 i:hover{
+    color: black !important;
+}
+.slider3 i{
+    color: white;
+}
+.header{
+    position: relative;
+}
+.header1::before{
+    position: absolute;
+    content:"";
+    width: 100px;
+    height: 2px;
+    top:37%;
+    left: 25%;
+    background-color: #0C65ED;
+    
+}
+.header1::after{
+    position: absolute;
+    content:"";
+    width: 100px;
+    height: 2px;
+    top:37%;
+    right: 25%;
+    background-color: #0C65ED;
+    
+}
+.header2::before{
+    position: absolute;
+    content:"";
+    width: 50px;
+    height: 2px;
+    top:28%;
+    left: 30.3%;
+    background-color: #0C65ED;
+}
+.header2::after{
+    position: absolute;
+    content:"";
+    width: 50px;
+    height: 2px;
+    top:28%;
+    right: 30.3%;
+    background-color: #0C65ED;
+}
+/*****************************************SEC13********************************************/    
+.sec13 .left{
+    color:white !important;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    transition: .5s;
+    
+}
+.sec13 .right{
+    color:white !important;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: .5s;
+}
+.sec13 .right:hover,.sec13 .left:hover{
+    background-color: black !important;
+}
